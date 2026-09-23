@@ -16,7 +16,7 @@ public class Produto {
 
 	}
 
-	public int getI(){
+	public int getId(){
 		return id;
 	}
 
@@ -51,5 +51,8 @@ public class Produto {
 	public void setStatus(String status) {
 		this.status = status;
 	}
+	public String getStatus(){
+		return status;
+		}
 
 }	
